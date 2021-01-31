@@ -1,0 +1,47 @@
+{% extends 'listing/base.html' %}
+{% block content %}
+<table class="table">
+    <tbody>
+        <tr>
+          <th>Description</th>
+            <td>{{listing.description }}</td>
+          	
+        </tr>
+        <tr>
+          <th>Price</th>
+            <td>{{listing.price }}</td>
+            
+        </tr>
+        <tr>
+          <th>Number of bedrooms</th>
+            <td>{{listing.numberOfBedrooms }}</td>
+           
+        </tr>
+           <tr>
+          <th>Number of bathrooms</th>
+            <td>{{listing.numberOfBathrooms }}</td>
+           
+        </tr>
+      <tr>
+          <th>Suburb</th>
+          	<td>{{listing.suburb }}</td>
+            
+        </tr>
+        <tr>
+          <th>Town</th>
+          	<td>{{listing.town }}</td>
+            
+        </tr>
+        <tr>
+          <th>Province</th>
+          	<td>{{listing.province }}</td>
+            
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+{%endblock content%}
